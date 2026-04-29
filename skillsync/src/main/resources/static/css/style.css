@@ -1,0 +1,105 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.container {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* UPLOAD BOX */
+.upload-box {
+    width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* DASHBOARD */
+.dashboard {
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #4facfe, #007bff);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #4facfe;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* LINKS */
+a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+/* MOBILE */
+@media (max-width: 500px) {
+    .container, .upload-box {
+        width: 90%;
+    }
+
+    .dashboard {
+        width: 95%;
+    }
+}
